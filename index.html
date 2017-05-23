@@ -134,7 +134,7 @@
       vertexShader: document.getElementById( 'vertexShader' ).textContent,
       fragmentShader: document.getElementById( 'fragmentShader' ).textContent
     } );
-
+    material.transparent = true;
 
     material.uniforms.resolution.value.x = window.innerWidth;
     material.uniforms.resolution.value.y = window.innerHeight;
